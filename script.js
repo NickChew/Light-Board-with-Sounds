@@ -14,7 +14,7 @@ for(let i = 0; i < Squares; i++) {
 function setColor(element) {
   const color = getRandomColor()
   element.style.background = color
-  element.style.boxShadow = `0 0 2px ${color}, 0 0 20px ${color}`
+  element.style.boxShadow = `0 0 10px ${color}, 0 0 140px ${color}`
   if (colorSounds[color]) {
     new Audio(colorSounds[color]).play()
   }
